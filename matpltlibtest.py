@@ -24,3 +24,21 @@ plt.legend()
 
 # function to show the plot
 plt.show()
+
+x1 = [1, 2, 2, 1, 1]
+y1 = [1, 1, 2, 2, 1]
+# plotting the line 1 points
+plt.plot(x1, y1, label="line 1")
+
+# naming the x axis
+plt.xlabel('x - axis')
+# naming the y axis
+plt.ylabel('y - axis')
+# giving a title to my graph
+plt.title('Two lines on same graph!')
+
+# show a legend on the plot
+plt.legend()
+
+# function to show the plot
+plt.show()
